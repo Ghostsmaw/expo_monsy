@@ -1,0 +1,755 @@
+{
+  "strict": {
+    "text-font-family": "Mukta-Regular",
+    "text-font-family-Mukta-Bold": "Mukta-Bold",
+    "text-font-family-Mukta-SemiBold": "Mukta-SemiBold",
+    "text-font-family-Mukta-Medium": "Mukta-Medium",
+    "text-font-family-Mukta-Regular": "Mukta-Regular",
+    "text-font-family-button": "$text-font-family-Mukta-Bold",
+    "text-font-family-input": "$text-font-family-Mukta-Regular",
+    "text-header-font-size": 42,
+    "text-header-font-weight": "700",
+    "text-header-font-family": "$text-font-family-Mukta-Bold",
+    "text-title-1-font-size": 34,
+    "text-title-1-font-weight": "700",
+    "text-title-1-font-family": "$text-font-family-Mukta-Bold",
+    "text-title-2-font-size": 28,
+    "text-title-2-font-weight": "700",
+    "text-title-2-font-family": "$text-font-family-Mukta-Bold",
+    "text-title-3-font-size": 22,
+    "text-title-3-font-weight": "700",
+    "text-title-3-font-family": "$text-font-family-Mukta-Bold",
+    "text-title-4-font-size": 18,
+    "text-title-4-font-weight": "600",
+    "text-title-4-font-family": "$text-font-family-Mukta-Bold",
+    "text-headline-font-size": 17,
+    "text-headline-font-weight": "600",
+    "text-headline-font-family": "$text-font-family-Mukta-Bold",
+    "text-body-font-size": 16,
+    "text-body-font-weight": "400",
+    "text-body-font-family": "$text-font-family-Mukta-Regular",
+    "text-call-out-font-size": 16,
+    "text-call-out-font-weight": "600",
+    "text-call-out-font-family": "$text-font-family-Mukta-Bold",
+    "text-subhead-font-size": 14,
+    "text-subhead-font-weight": "600",
+    "text-subhead-font-family": "$text-font-family-Mukta-Medium",
+    "text-footnote-font-size": 13,
+    "text-footnote-font-weight": "400",
+    "text-footnote-font-family": "$text-font-family-Mukta-Regular",
+    "text-caption-1-font-size": 12,
+    "text-caption-1-font-weight": "400",
+    "text-caption-1-font-family": "$text-font-family-Mukta-Regular",
+    "text-caption-2-font-size": 10,
+    "text-caption-2-font-weight": "400",
+    "text-caption-2-font-family": "$text-font-family-Mukta-Regular",
+    "text-label-font-size": 14,
+    "text-label-font-weight": "500",
+    "text-label-font-family": "$text-font-family-Mukta-Medium",
+    "size-tiny": 24,
+    "size-small": 40,
+    "size-medium": 40,
+    "size-large": 48
+  },
+  "components": {
+    "Text": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "color": {
+            "type": "string"
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "sub": {
+              "default": false
+            },
+            "body": {
+              "default": false
+            },
+            "white": {
+              "default": false
+            },
+            "black": {
+              "default": false
+            },
+            "note": {
+              "default": false
+            },
+            "title": {
+              "default": false
+            },
+            "description": {
+              "default": false
+            }
+          },
+          "category": {
+            "header": {
+              "default": false
+            },
+            "title1": {
+              "default": false
+            },
+            "title2": {
+              "default": false
+            },
+            "title3": {
+              "default": false
+            },
+            "title4": {
+              "default": false
+            },
+            "headline": {
+              "default": false
+            },
+            "body": {
+              "default": false
+            },
+            "callout": {
+              "default": false
+            },
+            "subhead": {
+              "default": false
+            },
+            "footnote": {
+              "default": false
+            },
+            "caption1": {
+              "default": false
+            },
+            "caption2": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "variantGroups": {
+            "status": {
+              "body": {
+                "color": "$text-body-color"
+              },
+              "white": {
+                "color": "$text-white-color"
+              },
+              "black": {
+                "color": "$text-black-color"
+              },
+              "note": {
+                "color": "$text-note-color"
+              },
+              "title": {
+                "color": "$text-title-color"
+              },
+              "description": {
+                "color": "$text-description-color"
+              }
+            },
+            "category": {
+              "header": {
+                "fontSize": "text-header-font-size",
+                "fontWeight": "text-header-font-weight",
+                "fontFamily": "text-header-font-family"
+              },
+              "title1": {
+                "fontSize": "text-title-1-font-size",
+                "fontWeight": "text-title-1-font-weight",
+                "fontFamily": "text-title-1-font-family"
+              },
+              "title2": {
+                "fontSize": "text-title-2-font-size",
+                "fontWeight": "text-title-2-font-weight",
+                "fontFamily": "text-title-2-font-family"
+              },
+              "title3": {
+                "fontSize": "text-title-3-font-size",
+                "fontWeight": "text-title-3-font-weight",
+                "fontFamily": "text-title-3-font-family"
+              },
+              "title4": {
+                "fontSize": "text-title-4-font-size",
+                "fontWeight": "text-title-4-font-weight",
+                "fontFamily": "text-title-4-font-family"
+              },
+              "headline": {
+                "fontSize": "text-headline-font-size",
+                "fontWeight": "text-headline-font-weight",
+                "fontFamily": "text-headline-font-family"
+              },
+              "body": {
+                "fontSize": "text-body-font-size",
+                "fontWeight": "text-body-font-weight",
+                "fontFamily": "text-body-font-family"
+              },
+              "callout": {
+                "fontSize": "text-call-out-font-size",
+                "fontWeight": "text-call-out-font-weight",
+                "fontFamily": "text-call-out-font-family"
+              },
+              "subhead": {
+                "fontSize": "text-subhead-font-size",
+                "fontWeight": "text-subhead-font-weight",
+                "fontFamily": "text-subhead-font-family"
+              },
+              "footnote": {
+                "fontSize": "text-footnote-font-size",
+                "fontWeight": "text-footnote-font-weight",
+                "fontFamily": "text-footnote-font-family"
+              },
+              "caption1": {
+                "fontSize": "text-caption-1-font-size",
+                "fontWeight": "text-caption-1-font-weight",
+                "fontFamily": "text-caption-1-font-family"
+              },
+              "caption2": {
+                "fontSize": "text-caption-2-font-size",
+                "fontWeight": "text-caption-2-font-weight",
+                "fontFamily": "text-caption-2-font-family"
+              }
+            }
+          }
+        }
+      }
+    },
+    "TopNavigation": {
+      "meta": {
+        "variantGroups": {
+          "alignment": {
+            "start": {
+              "default": false
+            },
+            "center": {
+              "default": true
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "paddingVertical": 0,
+            "paddingHorizontal": 4,
+            "backgroundColor": "background-basic-color-1",
+            "titleFontSize": "text-headline-font-size",
+            "titleFontWeight": "text-headline-font-weight",
+            "titleFontFamily": "text-headline-font-family",
+            "titleColor": "text-title-color"
+          }
+        }
+      }
+    },
+    "TopNavigationAction": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "iconWidth": 24,
+            "iconHeight": 24,
+            "iconMarginHorizontal": 8,
+            "iconTintColor": "icon-basic-color",
+            "state": {
+              "hover": {
+                "iconTintColor": "icon-basic-color"
+              },
+              "focused": {
+                "iconTintColor": "icon-basic-color"
+              },
+              "active": {
+                "iconTintColor": "icon-basic-color"
+              },
+              "disabled": {
+                "iconTintColor": "icon-basic-color"
+              }
+            }
+          }
+        },
+        "control": {
+          "mapping": {
+            "iconTintColor": "color-basic-100",
+            "state": {
+              "hover": {
+                "iconTintColor": "color-basic-100"
+              },
+              "focused": {
+                "iconTintColor": "color-basic-100"
+              },
+              "active": {
+                "iconTintColor": "color-basic-100"
+              },
+              "disabled": {
+                "iconTintColor": "color-basic-100"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Layout": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "backgroundColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "level": {
+            "5": {
+              "default": false
+            },
+            "6": {
+              "default": false
+            },
+            "7": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "variantGroups": {
+            "level": {
+              "5": {
+                "backgroundColor": "background-basic-color-5"
+              },
+              "6": {
+                "backgroundColor": "background-basic-color-6"
+              },
+              "7": {
+                "backgroundColor": "background-basic-color-7"
+              }
+            }
+          }
+        }
+      }
+    },
+    "BottomNavigationTab": {
+      "meta": {
+        "parameters": {
+          "iconTintColor": {
+            "type": "string"
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "iconTintColor": "$color-basic-1400"
+          }
+        }
+      }
+    },
+    "Button": {
+      "scope": "all",
+      "meta": {
+        "parameters": {
+          "borderTopLeftRadius": {
+            "type": "number"
+          },
+          "borderBottomLeftRadius": {
+            "type": "number"
+          },
+          "justifyContent": {
+            "type": "string"
+          },
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "paddingLeft": {
+            "type": "number"
+          },
+          "paddingRight": {
+            "type": "number"
+          }
+        },
+        "variantGroups": {
+          "size": {
+            "medium": {
+              "default": false
+            },
+            "large": {
+              "default": true
+            },
+            "giant": {
+              "default": false
+            }
+          },
+          "status": {
+            "disable": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "filled": {
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "backgroundColor": "color-primary-default",
+                "textColor": "color-basic-100",
+                "iconTintColor": "color-basic-100",
+                "state": {
+                  "focused": {
+                    "borderColor": "color-primary-focus-border",
+                    "backgroundColor": "color-primary-focus"
+                  },
+                  "hover": {
+                    "borderColor": "color-primary-hover-border",
+                    "backgroundColor": "color-primary-hover"
+                  },
+                  "active": {
+                    "borderColor": "color-primary-active-border",
+                    "backgroundColor": "color-primary-active"
+                  },
+                  "disabled": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "button-background-disable-color",
+                    "textColor": "button-text-disable-color",
+                    "iconTintColor": "text-disabled-color"
+                  }
+                }
+              },
+              "basic": {
+                "borderColor": "color-info-500",
+                "backgroundColor": "transparent",
+                "textColor": "color-info-500",
+                "iconTintColor": "color-info-500",
+                "state": {
+                  "focused": {
+                    "borderColor": "color-info-500",
+                    "textColor": "color-info-500",
+                    "backgroundColor": "color-info-500"
+                  },
+                  "hover": {
+                    "borderColor": "transparent",
+                    "textColor": "$button-basic-text-focused-color",
+                    "backgroundColor": "$button-basic-background-focused-color"
+                  },
+                  "active": {
+                    "borderColor": "transparent",
+                    "textColor": "color-basic-100",
+                    "backgroundColor": "color-info-500"
+                  },
+                  "disabled": {
+                    "borderColor": "color-basic-600",
+                    "backgroundColor": "transparent",
+                    "textColor": "color-basic-600"
+                  }
+                }
+              },
+              "control": {
+                "borderColor": "transparent",
+                "backgroundColor": "background-basic-color-3",
+                "textColor": "text-basic-color",
+                "iconTintColor": "text-basic-color",
+                "state": {
+                  "focused": {
+                    "borderColor": "transparent",
+                    "textColor": "button-control-text-active-color",
+                    "backgroundColor": "button-control-background-focused-color"
+                  },
+                  "hover": {
+                    "borderColor": "transparent",
+                    "textColor": "button-control-text-active-color",
+                    "backgroundColor": "button-control-background-focused-color"
+                  },
+                  "active": {
+                    "borderColor": "transparent",
+                    "textColor": "button-control-text-active-color",
+                    "backgroundColor": "button-control-background-focused-color"
+                  }
+                }
+              }
+            },
+            "size": {
+              "large": {
+                "paddingLeft": 24,
+                "paddingRight": 24,
+                "textMarginHorizontal": 12,
+                "textFontSize": 17,
+                "textFontWeight": "600",
+                "iconMarginHorizontal": 0,
+                "borderRadius": 48,
+                "borderWidth": 1,
+                "iconWidth": 16,
+                "iconHeight": 16
+              }
+            }
+          },
+          "mapping": {
+            "textFontFamily": "text-font-family-button"
+          }
+        }
+      }
+    },
+    "Input": {
+      "meta": {
+        "parameters": {
+          "borderRadius": {
+            "type": "number"
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            },
+            "disable": {
+              "default": false
+            },
+            "search": {
+              "default": false
+            }
+          },
+          "size": {
+            "small": {
+              "default": false
+            },
+            "medium": {
+              "default": false
+            },
+            "large": {
+              "default": true
+            },
+            "giant": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "paddingHorizontal": 16,
+            "textMarginHorizontal": 0,
+            "labelMarginBottom": 6
+          },
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "borderColor": "$border-input-color",
+                "textColor": "$text-input-color",
+                "backgroundColor": "$background-text-input-color",
+                "placeholderColor": "$placeholder-text-input-color",
+                "state": {
+                  "focused": {
+                    "backgroundColor": "$background-text-input-color",
+                    "borderColor": "color-primary-500"
+                  }
+                }
+              },
+              "search": {
+                "borderColor": "$border-input-color",
+                "textColor": "$text-input-color",
+                "backgroundColor": "$background-basic-color-3",
+                "placeholderColor": "$placeholder-text-input-color",
+                "iconTintColor": "$placeholder-text-input-color",
+                "state": {
+                  "focused": {
+                    "iconTintColor": "$placeholder-text-input-color",
+                    "backgroundColor": "$background-basic-color-3",
+                    "borderColor": "color-primary-500"
+                  }
+                }
+              }
+            },
+            "size": {
+              "medium": {
+                "minHeight": 40,
+                "borderRadius": 10,
+                "borderWidth": 0,
+                "textFontSize": "text-body-font-size",
+                "textFontWeight": "400"
+              },
+              "large": {
+                "minHeight": 48,
+                "borderRadius": 6,
+                "borderWidth": 2,
+                "textFontSize": "text-body-font-size",
+                "textFontWeight": "400"
+              }
+            }
+          }
+        }
+      }
+    },
+    "CheckBox": {
+      "meta": {
+        "variantGroups": {
+          "round": {
+            "default": false
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "width": 20,
+            "height": 20,
+            "borderRadius": 2,
+            "borderWidth": 2
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "borderColor": "color-basic-1700",
+                "backgroundColor": "transparent",
+                "textColor": "text-basic-color",
+                "state": {
+                  "checked": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "color-primary-500",
+                    "iconTintColor": "color-basic-100"
+                  },
+                  "indeterminate": {
+                    "borderColor": "color-basic-1700",
+                    "backgroundColor": "transparent",
+                    "iconTintColor": "color-basic-100"
+                  },
+                  "focused": {
+                    "borderColor": "color-basic-1700",
+                    "backgroundColor": "color-primary-500",
+                    "outlineBackgroundColor": "transparent"
+                  },
+                  "checked.focused": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "color-primary-500"
+                  },
+                  "active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "color-primary-500",
+                    "outlineBackgroundColor": "transparent"
+                  },
+                  "checked.active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "color-primary-500",
+                    "outlineBackgroundColor": "transparent"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "round": {
+          "mapping": {
+            "width": 20,
+            "height": 20,
+            "borderRadius": 20,
+            "borderWidth": 2
+          }
+        }
+      }
+    },
+    "Avatar": {
+      "meta": {
+        "parameters": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          }
+        },
+        "variantGroups": {
+          "size": {
+            "medium": {
+              "default": false
+            },
+            "giant": {
+              "default": true
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "variantGroups": {
+            "size": {
+              "giant": {
+                "width": 80,
+                "height": 80
+              }
+            }
+          }
+        }
+      }
+    },
+    "Toggle": {
+      "meta": {
+        "scope": "all",
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": true
+            },
+            "primary": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "width": 56,
+            "height": 32,
+            "borderRadius": 16,
+            "borderWidth": 0,
+            "thumbWidth": 28,
+            "thumbHeight": 28,
+            "thumbBorderRadius": 14,
+            "outlineWidth": 0,
+            "outlineHeight": 0,
+            "iconWidth": 0,
+            "iconHeight": 0
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "backgroundColor": "color-basic-300",
+                "thumbBackgroundColor": "color-basic-100",
+                "outlineBackgroundColor": "transparent",
+                "iconTintColor": "transparent",
+                "state": {
+                  "checked": {
+                    "backgroundColor": "color-info-500",
+                    "thumbBackgroundColor": "color-basic-100"
+                  },
+                  "focused": {
+                    "backgroundColor": "transparent"
+                  },
+                  "checked.focused": {
+                    "backgroundColor": "transparent"
+                  },
+                  "hover": {
+                    "backgroundColor": "transparent"
+                  },
+                  "checked.hover": {
+                    "backgroundColor": "transparent"
+                  },
+                  "active": {
+                    "backgroundColor": "transparent"
+                  },
+                  "checked.active": {
+                    "backgroundColor": "transparent"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
