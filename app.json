@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-monsy",
-    "slug": "expo-monsy",
+    "name": "kollo-app",
+    "slug": "kollo-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

@@ -74,10 +74,10 @@ const Login = memo(() => {
   }, [policyCheck]);
 
   const onPolicy = () => {
-    WebBrowser.openBrowserAsync("https://timivietnam.github.io/monsy/policy");
+    WebBrowser.openBrowserAsync("#");
   };
   const onTerm = () => {
-    WebBrowser.openBrowserAsync("https://timivietnam.github.io/monsy/term");
+    WebBrowser.openBrowserAsync("#");
   };
 
   useEffect(() => {

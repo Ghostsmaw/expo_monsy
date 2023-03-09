@@ -81,7 +81,7 @@ const GetPremium = memo(() => {
         </View>
         <Animated.View style={styles.contentStyle}>
           <Text bold size={22} lineHeight={37}>
-            Monsy Premium
+            Kollo Premium
           </Text>
           <Text marginTop={16} size={16} color={colors.grey2} lineHeight={22}>
             Upgrade your premium account to unlock all the special functions of
