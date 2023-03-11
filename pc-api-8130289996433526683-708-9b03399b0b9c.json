@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pc-api-8130289996433526683-708",
+  "private_key_id": "9b03399b0b9c6faab8ffbed6c103d7c8f90aeec2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0PtSV7UlFhbZb\npLjuFG03d8ji96jbF0LpKJL0KXcERnnkWuRHrVJShOJl213EfK1Zh0IeBw9WvVXg\nsriXLNGwON3F9oZCiB6wMnsCMGyuAB8GsqEBFF2QIawAe2Ifky4pRkwHn+YKGbk3\nLfHwsoOVGGjUPvJAJAJ4KW0EXhQ0/tIvdiMgincHE4cvSXtl9PK76cEP23FLquHl\n2VnGteQojWpyi1y4elKJ2h7otn0cQy0+PRg7AUvFRY1F79fH2fVezH674HhZsKH8\nhTcvIWw5ptUI+h2w3QrY7uBoRgJDSUi7z6AbI520PNtn2FzkfHglNndWJo8w6oyt\nczAqQUHPAgMBAAECggEACabNo/bJtCI47BPx3raTf8nEJSDFPXCAiDlzrDhZY6fq\n2GcxKLdngsl6OAfbL9P/RYQZ7oxK1KzpxgQiVBICnnDFGCS49r1EODbtYeYgg60e\nlcshFoycUyuPNfoyL5k/4Qm4tRw2T+pY6FM0Mw/UC1R8LiIhJbC0vL6qVEM9ylww\n9+xY1c5Khiwjpac8+pxiJ75OCWdsXcYGWEUeoqw0UjpkLPyXd9Vtt+b5tg//4V9B\nsSvphWv6Lp0Im5XofHi+amvCrKVhjSypGlhlr0xsuRgl6shfB65fbbXA60Ye3LEf\nCPFf+G+WYwdHWbCVERbjNWQuYQoF+I9lhfn8bcwyoQKBgQDbThXToFd/50fuQoIx\nu2G6mT6bjH/Q2IUWR2ba1e6ZUQlz9Fdb8cHmpxLtyCVfEQAce7waTNCelNeHSzSm\nS1cd/80AbclIaDPVyWR12ISGWsvE21Wh3krhuzHgLlNYnAiHTXedI/akUPEXKeYo\nnQZU6GRLGsGmqsrKvXbGLB24YQKBgQDSZ6FmET3gVmwVcw6KwVDnXyGwrWTg/O80\nz9JddR6kVzRcURvCEUKL7huG/EYhQ1tpQm1NspzfzUibM9lhtQehnhYI85QkT6nu\n0EgyUnQ/yT429KuQ7EGO+8KK+w4/2N/ElcWjbkK/b56b6Sezbm1IIwFMzWEsLZS1\n7Ll35AVoLwKBgQC9Dtn+MPJ9zzLRkgCPQw0DQm0Yx8zAjIhfJnrjGR6yiYvurKxL\nFWWlpE7LMooVJKDF7V3CBoqqy4Hqnsjqu3SE5isivYKSq1JUcWPrvBazhL66HKP8\nAZjodOqQax9q+kjX6868Z26PRUAySeqjBIua0yTzIkPjnMVqdl9YhFuywQKBgFEI\nSEie602y+v1nynn16cqyAK+il+9uelHEmCgWKy7vxuKm+iHLs+1gTom2LuwwnMv1\nIVODLpei4Aul9FqE9eNwltvrs2oopDGtVaDL0KmgP626nTi7RKRkoZAVEG/Wfpef\ndvZySJKh0lwJd5jLNptJn/6MOphhFZzbBrL9xndRAoGBAJ6UTJcuyACzR9OTWYP9\nas58VHnkDNgfdL2jzwtphvizJpYe0I9WUv+xb/ZGIjU48r97s5q6NFS/UPl8eVPF\nhkloB4YYUFVDYEUokjKHRd/85RKVpHiUrEelrkprC4ATrZzFNqar44CGtK6i6ckH\nN/lTvMRF67KxDtc9Hs9HkUxC\n-----END PRIVATE KEY-----\n",
+  "client_email": "kollo-app@pc-api-8130289996433526683-708.iam.gserviceaccount.com",
+  "client_id": "116134365160368460015",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kollo-app%40pc-api-8130289996433526683-708.iam.gserviceaccount.com"
+}

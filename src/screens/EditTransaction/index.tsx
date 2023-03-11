@@ -51,7 +51,7 @@ const EditTransaction = memo(({ route }: any) => {
   const wallets = useSelector((state: IState) => state.dataReducer.wallets);
   const userData = useSelector((state: IState) => state.masterReducer.user);
 
-  const [currency, setCurrency] = useState<string>("USD");
+  const [currency, setCurrency] = useState<string>("NGN");
   const [balance, setBalance] = useState<any>(0);
   const [category, setCategory] = useState<CATEGORY>();
   const [wallet, setWallet] = useState<WALLET>();

@@ -67,7 +67,7 @@ const CreateTransaction = memo(({ route }: any) => {
     close: closeKeyBoard,
   } = useModalize();
 
-  const [currency, setCurrency] = useState<string>("USD");
+  const [currency, setCurrency] = useState<string>("NGN");
   const [balance, setBalance] = useState<number>(1);
   const [tmpBalance, setTmpBalance] = useState<string>("");
   const [category, setCategory] = useState<any>({});
