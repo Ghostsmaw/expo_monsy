@@ -26,7 +26,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.ghostsmaw.kolloapp"
+      "package": "com.ghostsmaw.kolloapp",
+      "versionCode": "2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
