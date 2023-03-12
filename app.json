@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-monsy",
-    "slug": "expo-monsy",
+    "slug": "kollo-app",
     "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,7 +19,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ghostsmaw.expomonsy"
+      "bundleIdentifier": "com.ghostsmaw.kolloapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -34,8 +34,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "729f0c4f-1c3b-44c3-baf5-1a12d4029ba9"
+        "projectId": "5c035888-0d24-4515-af71-48137df94532"
       }
-    }
+    },
+    "owner": "lucindang9x"
   }
 }
