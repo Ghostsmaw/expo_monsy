@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "244032969090",
+    "project_id": "kollo-app-8295a",
+    "storage_bucket": "kollo-app-8295a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244032969090:android:21812a1d65fb9d9af4579b",
+        "android_client_info": {
+          "package_name": "com.ghostsmaw.kolloapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244032969090-3gse8deokq4a4sfb6h64hqjh2nab7vr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIQHSIVxVlOKy3ei6vSzIopJG5Mac6ciI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244032969090-3gse8deokq4a4sfb6h64hqjh2nab7vr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
