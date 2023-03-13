@@ -48,7 +48,7 @@ const Login = memo(() => {
     expoClientId:
       "244032969090-ce1m8kcsrcr06jeme4pgfr0o3vbrpg6l.apps.googleusercontent.com",
     iosClientId: "GOOGLE_GUID.apps.googleusercontent.com",
-    androidClientId: "GOOGLE_GUID.apps.googleusercontent.com",
+    androidClientId: "244032969090-s8hg79o5ikb30nm47q9qbc7i5od3lkoq.apps.googleusercontent.com",
     webClientId: "GOOGLE_GUID.apps.googleusercontent.com",
   });
 
