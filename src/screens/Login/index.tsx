@@ -43,9 +43,10 @@ const Login = memo(() => {
   const dispatch = useDispatch();
   const { bottom } = useLayout();
 
+  /*** MUST-CONFIG (DONE) ***/
   const [request, response, promptAsync] = Google.useAuthRequest({
     expoClientId:
-      "1058017311089-q6bp4rt2gvs8uu53e3nnpsipel1rccgn.apps.googleusercontent.com",
+      "244032969090-ce1m8kcsrcr06jeme4pgfr0o3vbrpg6l.apps.googleusercontent.com",
     iosClientId: "GOOGLE_GUID.apps.googleusercontent.com",
     androidClientId: "GOOGLE_GUID.apps.googleusercontent.com",
     webClientId: "GOOGLE_GUID.apps.googleusercontent.com",
@@ -56,6 +57,7 @@ const Login = memo(() => {
       const { authentication } = response;
       console.log("MINHDEBUG response", response);
       console.log("MINHDEBUG authentication", authentication);
+      console.log("MINHDEBUG accessToken", `${authentication?.accessToken}`);
 
       checkLogin(`${authentication?.accessToken}`);
     }
