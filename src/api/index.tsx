@@ -3,7 +3,7 @@ import { getToken } from "../utils/store/Store";
 /*** MUST-CONFIG (DONE) ***/
 // AWS SERVER:
 // https://eu-north-1.console.aws.amazon.com/ec2/v2/home?region=eu-north-1#InstanceDetails:instanceId=i-0a2b5445f2c54c14f
-export const SERVER_ADDRESS = "https://ac76-16-170-248-45.eu.ngrok.io";
+export const SERVER_ADDRESS = "https://11d1-16-170-248-45.eu.ngrok.io";
 
 export const BEARER = "Bearer";
 export const API_ENDPOINT = SERVER_ADDRESS + "/api/";
